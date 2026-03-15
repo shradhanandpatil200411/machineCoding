@@ -16,6 +16,9 @@ function Navbar() {
             <li>
               <NavLink to='/nested'>Nested Comments</NavLink>
             </li>
+            <li>
+              <NavLink to='/pagination'>Pagination</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
