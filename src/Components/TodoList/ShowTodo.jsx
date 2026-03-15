@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
-import { todoContext } from "../Warper";
+import { todoContext } from "../../ContextApi/Warper";
 
 function ShowTodo() {
   const [todo, setTodo] = useContext(todoContext);
-  console.log("todo render");
-
   const handelDelete = (id) => {
     const newTodo = todo.filter((todo) => todo.id !== id);
     setTodo(newTodo);

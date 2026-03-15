@@ -1,5 +1,6 @@
-import CreateTodo from "./CreateTodo"
-import ShowTodo from "./ShowTodo"
+import CreateTodo from "../Components/TodoList/CreateTodo"
+import ShowTodo from "../Components/TodoList/ShowTodo"
+
 
 
 function TodoList() {

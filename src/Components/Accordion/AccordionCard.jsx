@@ -11,6 +11,7 @@ function AccordionCard({ id, title, body, isOpen, setIsOpen }) {
                     <span style={isOpen === id ? { transform: "rotate(180deg)" } : {}}>
                         ^
                     </span>
+
                 </div>
                 <div className='px-4 text-lg'>{isOpen === id ? body : ""}</div>
             </div>

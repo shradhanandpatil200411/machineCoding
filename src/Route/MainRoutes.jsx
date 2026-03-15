@@ -1,8 +1,8 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import TodoList from '../TodoList/TodoList'
-import Accordion from '../Accordion/Accordion'
+
 import Navbar from '../Navbar'
+import TodoList from '../Pages/TodoList'
+import Accordion from '../Pages/Accordion'
 
 function MainRoutes() {
     return (

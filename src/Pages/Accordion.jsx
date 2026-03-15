@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AccordionCard from "./AccordionCard";
+import AccordionCard from "../Components/Accordion/AccordionCard";
 
 function Accordion() {
     const [accordionData, setAccordionData] = useState([]);
