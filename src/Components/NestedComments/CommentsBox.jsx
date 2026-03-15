@@ -20,7 +20,7 @@ function CommentsBox({ data }) {
               </div>
             </div>
             <div className='ml-10 border-l-2'>
-              {comment?.restyles && <CommentsBox data={comment.restyles} />}
+              {comment?.replies && <CommentsBox data={comment.replies} />}
             </div>
           </>
         );

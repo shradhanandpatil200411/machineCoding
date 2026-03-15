@@ -9,16 +9,16 @@ function ProductCards({
 }) {
   return (
     <>
-      <div className='w-80 border h-96 bg-gray-500 rounded-2xl text-black p-4'>
-        <div className='h-1/2'>
+      <div className='w-80 border h-96 bg-gray-500 rounded-2xl text-gray-900 p-4 '>
+        <div className='h-1/2 bg-gray-600'>
           <img
             className='bg-cover mx-auto h-full'
             src={thumbnail}
             alt='product-img'
           />
         </div>
-        <div>
-          <h1 className='text-xl font-bold text-black'>{title}</h1>
+        <div className='mt-5'>
+          <h1 className='text-xl font-bold '>{title}</h1>
           <p className='text-lg font-semibold'>
             Rs <span>{price}</span> - discount{" "}
             <span>{discountPercentage}%</span>

@@ -11,13 +11,13 @@ function NestedComments() {
           profilerUrl: "https://avatars.githubusercontent.com/u/174130151?v=4",
           userName: "vicky_patil",
           comment: "Hii my name is vicky",
-          restyles: [
+          replies: [
             {
               profilerUrl:
                 "https://avatars.githubusercontent.com/u/174130151?v=4",
               userName: "vicky_patil",
               comment: "Hii my name is vicky",
-              restyles: [
+              replies: [
                 {
                   profilerUrl:
                     "https://avatars.githubusercontent.com/u/174130151?v=4",
@@ -32,13 +32,13 @@ function NestedComments() {
           profilerUrl: "https://avatars.githubusercontent.com/u/174130151?v=4",
           userName: "vicky_patil",
           comment: "Hii my name is vicky",
-          restyles: [
+          replies: [
             {
               profilerUrl:
                 "https://avatars.githubusercontent.com/u/174130151?v=4",
               userName: "vicky_patil",
               comment: "Hii my name is vicky",
-              restyles: [
+              replies: [
                 {
                   profilerUrl:
                     "https://avatars.githubusercontent.com/u/174130151?v=4",
@@ -53,13 +53,13 @@ function NestedComments() {
           profilerUrl: "https://avatars.githubusercontent.com/u/174130151?v=4",
           userName: "vicky_patil",
           comment: "Hii my name is vicky",
-          restyles: [
+          replies: [
             {
               profilerUrl:
                 "https://avatars.githubusercontent.com/u/174130151?v=4",
               userName: "vicky_patil",
               comment: "Hii my name is vicky",
-              restyles: [
+              replies: [
                 {
                   profilerUrl:
                     "https://avatars.githubusercontent.com/u/174130151?v=4",
@@ -74,7 +74,7 @@ function NestedComments() {
           profilerUrl: "https://avatars.githubusercontent.com/u/174130151?v=4",
           userName: "vicky_patil",
           comment: "Hii my name is vicky",
-          restyles: [
+          replies: [
             {
               profilerUrl:
                 "https://avatars.githubusercontent.com/u/174130151?v=4",

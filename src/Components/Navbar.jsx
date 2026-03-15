@@ -19,6 +19,9 @@ function Navbar() {
             <li>
               <NavLink to='/pagination'>Pagination</NavLink>
             </li>
+            <li>
+              <NavLink to='/carousal'>Carousal</NavLink>
+            </li>
           </ul>
         </div>
       </nav>

@@ -48,7 +48,7 @@ function Pagination() {
             className={
               pageNo === index ?
                 "font-bold text-xl w-10 text-center bg-gray-500 "
-              : "w-5 text-center"
+              : "w-10 text-center"
             }
             key={index}
             onClick={() => setPageNo(index)}>
