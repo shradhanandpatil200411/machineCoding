@@ -22,6 +22,9 @@ function Navbar() {
             <li>
               <NavLink to='/carousal'>Carousal</NavLink>
             </li>
+            <li>
+              <NavLink to='/google-search'>Google</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
