@@ -7,6 +7,7 @@ import NestedComments from "../Pages/NestedComments";
 import Pagination from "../Pages/Pagination";
 import ImageCarousal from "../Pages/ImageCarousal";
 import GoogleSearch from "../Pages/GoogleSearch";
+import TabFrom from "../Pages/TabFrom";
 
 function MainRoutes() {
   return (
@@ -20,6 +21,7 @@ function MainRoutes() {
           <Route path='/pagination' element={<Pagination />} />
           <Route path='/carousal' element={<ImageCarousal />} />
           <Route path='/google-search' element={<GoogleSearch />} />
+          <Route path='/tab-from' element={<TabFrom />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -25,6 +25,9 @@ function Navbar() {
             <li>
               <NavLink to='/google-search'>Google</NavLink>
             </li>
+            <li>
+              <NavLink to='/tab-from'>Tab from</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
