@@ -8,6 +8,7 @@ import Pagination from "../Pages/Pagination";
 import ImageCarousal from "../Pages/ImageCarousal";
 import GoogleSearch from "../Pages/GoogleSearch";
 import TabFrom from "../Pages/TabFrom";
+import FolderExplore from "../Pages/FolderExplore";
 
 function MainRoutes() {
   return (
@@ -22,6 +23,7 @@ function MainRoutes() {
           <Route path='/carousal' element={<ImageCarousal />} />
           <Route path='/google-search' element={<GoogleSearch />} />
           <Route path='/tab-from' element={<TabFrom />} />
+          <Route path='/folder-explore' element={<FolderExplore />} />
         </Routes>
       </BrowserRouter>
     </>

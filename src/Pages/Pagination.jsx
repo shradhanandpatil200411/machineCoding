@@ -33,7 +33,9 @@ function Pagination() {
       <div className=' flex gap-10 justify-evenly  flex-wrap mt-10 mx-10'>
         {products.map((product) => {
           return showShimmer ?
-              <ProductCardShimmer />
+              <div key={product.id}>
+                <ProductCardShimmer />
+              </div>
             : <div key={product.id}>
                 <ProductCards {...product} />
               </div>;

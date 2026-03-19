@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className='flex justify-between px-40 py-5 bg-gray-600'>
+      <nav className='flex justify-between px-20 text-md py-5 bg-gray-600'>
         <div className='text-2xl font-bold'>SP</div>
         <div>
           <ul className='flex gap-10 text-xl font-semibold'>
@@ -27,6 +27,9 @@ function Navbar() {
             </li>
             <li>
               <NavLink to='/tab-from'>Tab from</NavLink>
+            </li>
+            <li>
+              <NavLink to='/folder-explore'>Folder Explore</NavLink>
             </li>
           </ul>
         </div>

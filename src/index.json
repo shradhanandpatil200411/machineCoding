@@ -1,0 +1,75 @@
+[
+  {
+    "name": "public",
+    "id": "1",
+    "isFolder": true,
+    "children": [
+      {
+        "id": "2",
+        "name": "index.html",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "id": "4",
+        "name": "components",
+        "isFolder": true,
+        "children": [
+          {
+            "id": "5",
+            "name": "navbar.jsx",
+            "isFolder": false
+          },
+          {
+            "id": "6",
+            "name": "Shimmer",
+            "isFolder": true,
+            "children": [
+              {
+                "id": "7",
+                "name": "shimmer.jsx",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "App.jsx",
+        "isFolder": false
+      },
+      {
+        "id": "9",
+        "name": "index.css",
+        "isFolder": false
+      },
+      {
+        "id": "10",
+        "name": "main.jsx",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "index.html",
+    "isFolder": false
+  },
+  {
+    "id": "12",
+    "name": "package.json",
+    "isFolder": false
+  },
+  {
+    "id": "13",
+    "name": "package-lock.json",
+    "isFolder": false
+  }
+]
