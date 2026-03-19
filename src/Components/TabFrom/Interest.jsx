@@ -2,7 +2,6 @@ import React from "react";
 
 function Interest({ data, setData, error }) {
   const { interest } = data;
-  console.log(error);
 
   const handelOnChange = (e) => {
     setData((prevState) => ({

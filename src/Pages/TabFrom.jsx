@@ -10,7 +10,7 @@ function TabFrom() {
     age: 25,
     email: "shradhanand@gmail.com",
     interest: ["react", "javaScript"],
-    them: "dark",
+    theme: "dark",
   });
 
   const [error, setError] = useState({});
@@ -58,6 +58,18 @@ function TabFrom() {
 
   const ActiveTab = Tabs[activeTab].component;
 
+  const handelClickNext = () => {
+    Tabs[activeTab].validate() && setActiveTab(activeTab + 1);
+  };
+
+  const handelClickPervious = () => {
+    Tabs[activeTab].validate() && setActiveTab(activeTab - 1);
+  };
+
+  const handelClickSubmit = () => {
+    console.log(data);
+  };
+
   return (
     <div className='p-10'>
       <div className='flex gap-10 '>
@@ -77,6 +89,29 @@ function TabFrom() {
       </div>
       <div className='h-96 border mt-5'>
         <ActiveTab data={data} setData={setData} error={error} />
+        <div className='flex gap-10 w-fit mx-auto mt-10'>
+          {activeTab > 0 && (
+            <button
+              onClick={handelClickPervious}
+              className='px-4 bg-gray-600 py-2 hover:bg-gray-500  rounded-xl font-semibold cursor-pointer'>
+              Pervious
+            </button>
+          )}
+          {Tabs.length - 1 > activeTab && (
+            <button
+              onClick={handelClickNext}
+              className='px-4 bg-gray-600 py-2 hover:bg-gray-500  rounded-xl font-semibold cursor-pointer'>
+              Next
+            </button>
+          )}
+          {Tabs.length - 1 === activeTab && (
+            <button
+              onClick={handelClickSubmit}
+              className='px-4 bg-gray-600 py-2 hover:bg-gray-500  rounded-xl font-semibold cursor-pointer'>
+              Submit
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
