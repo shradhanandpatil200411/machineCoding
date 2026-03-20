@@ -2,9 +2,11 @@ import Profile from "../Components/TabFrom/Profile";
 import Interest from "../Components/TabFrom/Interest";
 import Settings from "../Components/TabFrom/Settings";
 import { useState } from "react";
+import ProgressBar from "../Components/ProgressBar";
 
 function TabFrom() {
   const [activeTab, setActiveTab] = useState(0);
+  const [progress, setProgress] = useState(0);
   const [data, setData] = useState({
     name: "Shradhanand",
     age: 25,
@@ -59,11 +61,23 @@ function TabFrom() {
   const ActiveTab = Tabs[activeTab].component;
 
   const handelClickNext = () => {
-    Tabs[activeTab].validate() && setActiveTab(activeTab + 1);
+    if (Tabs[activeTab].validate()) {
+      let nextTab = activeTab + 1;
+      setActiveTab(nextTab);
+      setProgress(
+        (prev) => prev + Math.round((nextTab / (Tabs.length - 1)) * 100),
+      );
+    }
   };
 
   const handelClickPervious = () => {
-    Tabs[activeTab].validate() && setActiveTab(activeTab - 1);
+    if (Tabs[activeTab].validate()) {
+      const nextTab = activeTab - 1;
+      setActiveTab(nextTab);
+      setProgress(
+        (prev) => prev - Math.floor((nextTab / (Tabs.length - 1)) * 100),
+      );
+    }
   };
 
   const handelClickSubmit = () => {
@@ -113,6 +127,7 @@ function TabFrom() {
           )}
         </div>
       </div>
+      <ProgressBar progress={progress} />
     </div>
   );
 }
