@@ -10,6 +10,7 @@ import GoogleSearch from "../Pages/GoogleSearch";
 import TabFrom from "../Pages/TabFrom";
 import FolderExplore from "../Pages/FolderExplore";
 import ProtectedRoutes from "./ProtectedRoutes";
+import StopWatch from "../Pages/StopWatch";
 
 function MainRoutes() {
   return (
@@ -23,6 +24,7 @@ function MainRoutes() {
           <Route path='/pagination' element={<Pagination />} />
           <Route path='/carousal' element={<ImageCarousal />} />
           <Route path='/google-search' element={<GoogleSearch />} />
+          <Route path='/stop-watch' element={<StopWatch />} />
           <Route element={<ProtectedRoutes />}>
             <Route path='/tab-from' element={<TabFrom />} />
             <Route path='/folder-explore' element={<FolderExplore />} />

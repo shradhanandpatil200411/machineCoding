@@ -6,7 +6,7 @@ function Navbar() {
       <nav className='flex justify-between px-20 text-md py-5 bg-gray-600'>
         <div className='text-2xl font-bold'>SP</div>
         <div>
-          <ul className='flex gap-10 text-xl font-semibold'>
+          <ul className='flex gap-5 text-xl font-semibold'>
             <li>
               <NavLink to='/'> Todo </NavLink>
             </li>
@@ -30,6 +30,9 @@ function Navbar() {
             </li>
             <li>
               <NavLink to='/folder-explore'>Folder Explore</NavLink>
+            </li>
+            <li>
+              <NavLink to='/stop-watch'>Stop Watch</NavLink>
             </li>
           </ul>
         </div>
