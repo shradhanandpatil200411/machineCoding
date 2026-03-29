@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className='flex justify-between px-20 text-md py-5 bg-gray-600'>
+      <nav className='flex gap-10 justify-between px-20 text-md py-5 bg-gray-600'>
         <div className='text-2xl font-bold'>SP</div>
         <div>
-          <ul className='flex gap-5 text-xl font-semibold'>
+          <ul className='flex flex-wrap gap-5 text-lg font-semibold'>
             <li>
               <NavLink to='/'> Todo </NavLink>
             </li>
@@ -33,6 +33,15 @@ function Navbar() {
             </li>
             <li>
               <NavLink to='/stop-watch'>Stop Watch</NavLink>
+            </li>
+            <li>
+              <NavLink to='/useMemo'>UseMemo</NavLink>
+            </li>
+            <li>
+              <NavLink to='/window-size'>Window Size</NavLink>
+            </li>
+            <li>
+              <NavLink to='/product'>Product</NavLink>
             </li>
           </ul>
         </div>

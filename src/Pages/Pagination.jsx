@@ -27,6 +27,7 @@ function Pagination() {
       setShowShimmer(false);
     };
     fetchAsyncData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageNo, allPages]);
   return (
     <>

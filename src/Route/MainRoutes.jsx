@@ -11,6 +11,9 @@ import TabFrom from "../Pages/TabFrom";
 import FolderExplore from "../Pages/FolderExplore";
 import ProtectedRoutes from "./ProtectedRoutes";
 import StopWatch from "../Pages/StopWatch";
+import CustomUseMemo from "../Pages/CustomUseMemo";
+import WindowSize from "../Pages/WindowSize";
+import Product from "../Pages/Product";
 
 function MainRoutes() {
   return (
@@ -29,6 +32,9 @@ function MainRoutes() {
             <Route path='/tab-from' element={<TabFrom />} />
             <Route path='/folder-explore' element={<FolderExplore />} />
           </Route>
+          <Route path='/useMemo' element={<CustomUseMemo />} />
+          <Route path='/window-size' element={<WindowSize />} />
+          <Route path='/product' element={<Product />} />
         </Routes>
       </BrowserRouter>
     </>
