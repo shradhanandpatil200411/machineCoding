@@ -43,6 +43,9 @@ function Navbar() {
             <li>
               <NavLink to='/product'>Product</NavLink>
             </li>
+            <li>
+              <NavLink to='/infinity-scroll'>Infinity Scroll</NavLink>
+            </li>
           </ul>
         </div>
       </nav>

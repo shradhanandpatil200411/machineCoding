@@ -14,6 +14,8 @@ import StopWatch from "../Pages/StopWatch";
 import CustomUseMemo from "../Pages/CustomUseMemo";
 import WindowSize from "../Pages/WindowSize";
 import Product from "../Pages/Product";
+import AmpIssue from "../Pages/AmpIssue";
+import InfinityScroll from "../Pages/InfinityScroll";
 
 function MainRoutes() {
   return (
@@ -35,6 +37,8 @@ function MainRoutes() {
           <Route path='/useMemo' element={<CustomUseMemo />} />
           <Route path='/window-size' element={<WindowSize />} />
           <Route path='/product' element={<Product />} />
+          <Route path='/amp' element={<AmpIssue />} />
+          <Route path='/infinity-scroll' element={<InfinityScroll />} />
         </Routes>
       </BrowserRouter>
     </>
