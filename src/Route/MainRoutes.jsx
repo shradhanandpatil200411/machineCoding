@@ -16,6 +16,8 @@ import WindowSize from "../Pages/WindowSize";
 import Product from "../Pages/Product";
 import AmpIssue from "../Pages/AmpIssue";
 import InfinityScroll from "../Pages/InfinityScroll";
+import PaymentForm from "../Pages/PaymentForm";
+import PaginationPractices from "../Pages/PaginationPractices";
 
 function MainRoutes() {
   return (
@@ -39,6 +41,11 @@ function MainRoutes() {
           <Route path='/product' element={<Product />} />
           <Route path='/amp' element={<AmpIssue />} />
           <Route path='/infinity-scroll' element={<InfinityScroll />} />
+          <Route path='/payment-form' element={<PaymentForm />} />
+          <Route
+            path='/pagination-practice'
+            element={<PaginationPractices />}
+          />
         </Routes>
       </BrowserRouter>
     </>

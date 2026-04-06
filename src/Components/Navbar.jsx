@@ -46,6 +46,12 @@ function Navbar() {
             <li>
               <NavLink to='/infinity-scroll'>Infinity Scroll</NavLink>
             </li>
+            <li>
+              <NavLink to='/payment-form'>Payment Form</NavLink>
+            </li>
+            <li>
+              <NavLink to='/pagination-practice'>Pagination Practice</NavLink>
+            </li>
           </ul>
         </div>
       </nav>

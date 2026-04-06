@@ -23,7 +23,7 @@ function ProductCards({
             Rs <span>{price}</span> - discount{" "}
             <span>{discountPercentage}%</span>
           </p>
-          <p className='text-sm'>{description.slice(0, 100)}...</p>
+          <p className='text-sm'>{description?.slice(0, 100)}...</p>
         </div>
       </div>
     </>
