@@ -52,7 +52,7 @@ function GoogleSearch() {
     setMessage("");
   };
 
-  const handelMessageDelay = useRef(Throttle((mes) => sendMessage(mes), 10000));
+  const handelMessageDelay = useRef(Throttle((mes) => sendMessage(mes), 1000));
 
   return (
     <>

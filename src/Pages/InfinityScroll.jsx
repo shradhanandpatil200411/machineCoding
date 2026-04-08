@@ -45,7 +45,7 @@ function InfinityScroll() {
 
   useEffect(() => {
     window.addEventListener("scroll", handelScroll);
-    return () => window.removeEventListener("scroll", handelScroll); // ✅ cleanup
+    return () => window.removeEventListener("scroll", handelScroll);
   }, [handelScroll]);
 
   useEffect(() => {

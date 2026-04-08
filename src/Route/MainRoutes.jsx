@@ -18,6 +18,8 @@ import AmpIssue from "../Pages/AmpIssue";
 import InfinityScroll from "../Pages/InfinityScroll";
 import PaymentForm from "../Pages/PaymentForm";
 import PaginationPractices from "../Pages/PaginationPractices";
+import DemoInfinityScroll from "../Pages/DemoInfinityScroll";
+import Demo from "../Pages/Demo";
 
 function MainRoutes() {
   return (
@@ -42,6 +44,8 @@ function MainRoutes() {
           <Route path='/amp' element={<AmpIssue />} />
           <Route path='/infinity-scroll' element={<InfinityScroll />} />
           <Route path='/payment-form' element={<PaymentForm />} />
+          <Route path='/demo-scroll' element={<DemoInfinityScroll />} />
+          <Route path='/demo' element={<Demo />} />
           <Route
             path='/pagination-practice'
             element={<PaginationPractices />}
